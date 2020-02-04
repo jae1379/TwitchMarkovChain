@@ -1,20 +1,27 @@
 {
     "Host": "irc.chat.twitch.tv",
     "Port": 6667,
-    "Channel": "#<channel>",
-    "Nickname": "<name>",
-    "Authentication": "oauth:<auth>",
+    "Channel": "#jae1379",
+    "Nickname": "jayaibot",
+    "Authentication": "oauth:q2raxsjuxk4f2ttbly00jiwm4pcfxa",
     "DeniedUsers": [
         "StreamElements",
-        "Nightbot",
-        "Moobot",
-        "Marbiebot"
+        "jae1379",
+        "jayaibot"
     ],
     "BannedWords": [
         "<START>",
-        "<END>"
+        "<END>",
+        "shit",
+        "fuck",
+        "fucker",
+        "motherfucker",
+        "dick",
+        "bitch",
+        "bastard",
+        "cunt"
     ],
-    "Cooldown": 20,
+    "Cooldown": 10,
     "KeyLength": 2,
     "MaxSentenceWordAmount": 25
 }
